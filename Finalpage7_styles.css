@@ -1,0 +1,35 @@
+body {
+    background-color: #FFC2F5;
+    width: 768px;
+    height: 1024px;
+    background-image: url('SVG/qrAsset\ 7.svg');
+}
+.home {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+.flex-container {
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    width: 768px;
+    height: 1024px;
+    margin: 50px;
+}
+.prompt1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+}
+.shoes {
+    position: relative;
+    left: 20%;
+}

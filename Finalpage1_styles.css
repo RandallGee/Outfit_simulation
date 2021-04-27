@@ -1,0 +1,64 @@
+body {
+    background-color: #FFEE97;
+    width: 768px;
+    height: 1024px;
+    background-image: url('SVG/qrAsset\ 7.svg');
+    background-repeat: repeat;
+}
+.home {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+#model {
+    position: absolute;
+    left: 80%;
+}
+#model1a {
+    display: none;
+    position: absolute;
+    left: 80%;
+}
+#shorts {
+    display: inline;
+    width: 300px;
+}
+#shorts:hover ~ #model1a {
+    display: inline;
+}
+#pants {
+    display: inline;
+    width: 450px;
+}
+#model1b {
+    display: none;
+    position: absolute;
+    left: 80%;
+}
+#pants:hover ~ #model1b {
+    display: inline; 
+}
+#pants:hover ~ #model {
+    display: none; 
+}
+.flex-container {
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    width: 768px;
+    height: 1024px;
+    margin: 50px;
+}
+.prompt1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0px;
+    top: -200px;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+}
+
